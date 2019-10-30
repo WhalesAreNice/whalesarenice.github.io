@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Allan Ng's Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">Allan Ng's Portfolio</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="asteroids.html" class="active">Asteroids</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Asteroids</h1>
+							<span class="image fit"><img src="images/Asteroids_title_screen.png" alt="asteroids title screen" /></span>
+							<h2>This is a remake of the classic Asteroids game with updated graphics. The one thing different to the original is an added "Shield" ability to protected your ship in a time of crisis.</h2>
+                            <div class="videoContainer">
+                                <iframe class="myVideos" src="https://www.youtube.com/embed/gFEr0EPpoLI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="split style1">
+                                <section>
+                                    <h2>Role: Programmer</h2>
+                                    <h3>As the sole Programmer of this remake, I</h3>
+                                    <ul>
+                                        <li>Coded the movement through player input using acceleration</li>
+                                        <li>Created an asteroid spawner that instantiates asteroids at a random visible area, while being at least a certain distance away from the player on a set timer after the initial starting asteroids</li>
+                                        <li>Wrote my own AABB collision detection and ran it through a collision manager script</li>
+                                        <li>Added an additional feature foreign to the original Asteroids game, through the use of a  shield that uses up energy, which can be toggled on and off</li>
+                                    </ul>
+                                </section>
+                                <section>
+                                    <h3>Software: Unity, Visual Studio</h3>
+                                    <h3>Language: C#</h3>
+                                    <p></p>
+                                    <a class="icon brands fa-github" href="https://github.com/WhalesAreNice/Asteroids" target="_blank"> View Code</a>
+                                </section>
+                            </div>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper style1-alt">
+				<div class="inner">
+					<ul class="menu">
+						<li><h3>&copy; Copyright Allan Ng 2019</h3></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
