@@ -162,70 +162,25 @@
 						<div class="inner">
 							<h2>Contact</h2>
 							<p>Thank you for viewing my portfolio, if you have any interest in getting in touch with me please feel free to contact me in one of the options below.</p>
-							<div class="split style1">
-								<section>
-									<form method="post" action="mailto:allanngworks@gmail.com">
-										<div class="fields">
-											<div class="field half">
-												<label for="name">Name</label>
-												<input type="text" name="name" id="name" />
-											</div>
-											<div class="field half">
-												<label for="email">Email</label>
-												<input type="text" name="email" id="email" />
-											</div>
-											<div class="field">
-												<label for="message">Message</label>
-												<textarea name="message" id="message" rows="5"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><a href="" class="button submit">Send Message</a></li>
-										</ul>
-									</form>
-									<?php   
-                                        if (isset($_POST["submit"])){ 
-                                            $to = "allanngworks@gmail.com"; 
-                                                $from = empty(trim($_POST["email"])) ? "noemail@sample.com" : sanitize_string($_POST["email"]);
-
-                                                $subject = "Web Form";
-
-                                                $message = empty(trim($_POST["message"])) ?  "No message" : sanitize_string($_POST["message"]);
-
-                                                $name = empty(trim($_POST["name"])) ? "No name" : sanitize_string($_POST["name"]);
-
-                                                $headers = "From: $from" . "\r\n";
-
-                                                $message .= " - $name";
-                                        }
-
-                                        function sanitize_string($string){
-                                        $string = trim($string);
-                                        $string = strip_tags($string);
-                                        return $string;
-                                        }
-                                    ?>
-								</section>
-								<section>
-									<ul class="contact">
-										<li>
-											<h3>Email</h3>
-											<a href="mailto:allanngworks@gmail.com">allanngworks@gmail.com</a>
-										</li>
-										<li>
-											<h3>Phone</h3>
-											<span>(917) 340-2666</span>
-										</li>
-										<li>
-											<h3>Social</h3>
-											<ul class="icons">
-												<li><a href="https://github.com/whalesarenice" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-												<li><a href="https://www.linkedin.com/in/allan-ng-9133a615a/" target="_blank" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-											</ul>
-										</li>
-									</ul>
-								</section>
-							</div>
+                            <section>
+                                <ul class="contact">
+                                    <li>
+                                        <h3>Email</h3>
+                                        <a href="mailto:allanngworks@gmail.com">allanngworks@gmail.com</a>
+                                    </li>
+                                    <li>
+                                        <h3>Phone</h3>
+                                        <span>(917) 340-2666</span>
+                                    </li>
+                                    <li>
+                                        <h3>Social</h3>
+                                        <ul class="icons">
+                                            <li><a href="https://github.com/whalesarenice" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+                                            <li><a href="https://www.linkedin.com/in/allan-ng-9133a615a/" target="_blank" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </section>
 						</div>
 					</section>
 
