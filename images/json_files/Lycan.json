@@ -1,0 +1,399 @@
+{"frames": {
+
+"Lycan_Attack_00.png":
+{
+	"frame": {"x":0,"y":523,"w":158,"h":154},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":165,"y":69,"w":158,"h":154},
+	"sourceSize": {"w":390,"h":223},
+	"anchor": {"x":0.628205,"y":1}
+},
+"Lycan_Attack_01.png":
+{
+	"frame": {"x":0,"y":369,"w":289,"h":152},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":96,"y":71,"w":289,"h":152},
+	"sourceSize": {"w":390,"h":223},
+	"anchor": {"x":0.628205,"y":1}
+},
+"Lycan_Attack_02.png":
+{
+	"frame": {"x":289,"y":369,"w":283,"h":152},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":98,"y":71,"w":283,"h":152},
+	"sourceSize": {"w":390,"h":223},
+	"anchor": {"x":0.628205,"y":1}
+},
+"Lycan_Attack_03.png":
+{
+	"frame": {"x":501,"y":523,"w":276,"h":156},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":114,"y":67,"w":276,"h":156},
+	"sourceSize": {"w":390,"h":223},
+	"anchor": {"x":0.628205,"y":1}
+},
+"Lycan_Attack_04.png":
+{
+	"frame": {"x":0,"y":218,"w":335,"h":147},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":33,"y":76,"w":335,"h":147},
+	"sourceSize": {"w":390,"h":223},
+	"anchor": {"x":0.628205,"y":1}
+},
+"Lycan_Attack_05.png":
+{
+	"frame": {"x":335,"y":218,"w":239,"h":150},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":67,"y":73,"w":239,"h":150},
+	"sourceSize": {"w":390,"h":223},
+	"anchor": {"x":0.628205,"y":1}
+},
+"Lycan_Attack_06.png":
+{
+	"frame": {"x":574,"y":218,"w":202,"h":151},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":104,"y":72,"w":202,"h":151},
+	"sourceSize": {"w":390,"h":223},
+	"anchor": {"x":0.628205,"y":1}
+},
+"Lycan_Attack_07.png":
+{
+	"frame": {"x":782,"y":1013,"w":189,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":129,"y":0,"w":189,"h":223},
+	"sourceSize": {"w":390,"h":223},
+	"anchor": {"x":0.628205,"y":1}
+},
+"Lycan_Attack_08.png":
+{
+	"frame": {"x":474,"y":1013,"w":308,"h":199},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":24,"w":308,"h":199},
+	"sourceSize": {"w":390,"h":223},
+	"anchor": {"x":0.628205,"y":1}
+},
+"Lycan_Attack_09.png":
+{
+	"frame": {"x":158,"y":523,"w":203,"h":155},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":102,"y":68,"w":203,"h":155},
+	"sourceSize": {"w":390,"h":223},
+	"anchor": {"x":0.628205,"y":1}
+},
+"Lycan_Attack_10.png":
+{
+	"frame": {"x":0,"y":680,"w":140,"h":157},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":165,"y":66,"w":140,"h":157},
+	"sourceSize": {"w":390,"h":223},
+	"anchor": {"x":0.628205,"y":1}
+},
+"Lycan_Attack_11.png":
+{
+	"frame": {"x":361,"y":523,"w":140,"h":155},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":165,"y":68,"w":140,"h":155},
+	"sourceSize": {"w":390,"h":223},
+	"anchor": {"x":0.628205,"y":1}
+},
+"Lycan_Attack_Effect_0.png":
+{
+	"frame": {"x":415,"y":0,"w":68,"h":59},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":21,"w":68,"h":59},
+	"sourceSize": {"w":70,"h":80},
+	"anchor": {"x":0.5,"y":0.5}
+},
+"Lycan_Attack_Effect_1.png":
+{
+	"frame": {"x":483,"y":0,"w":67,"h":65},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":15,"w":67,"h":65},
+	"sourceSize": {"w":70,"h":80},
+	"anchor": {"x":0.5,"y":0.5}
+},
+"Lycan_Attack_Effect_2.png":
+{
+	"frame": {"x":0,"y":76,"w":69,"h":80},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":69,"h":80},
+	"sourceSize": {"w":70,"h":80},
+	"anchor": {"x":0.5,"y":0.5}
+},
+"Lycan_Attack_Effect_3.png":
+{
+	"frame": {"x":618,"y":0,"w":68,"h":66},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":0,"w":68,"h":66},
+	"sourceSize": {"w":70,"h":80},
+	"anchor": {"x":0.5,"y":0.5}
+},
+"Lycan_Attack_Effect_4.png":
+{
+	"frame": {"x":550,"y":0,"w":68,"h":66},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":0,"w":68,"h":66},
+	"sourceSize": {"w":70,"h":80},
+	"anchor": {"x":0.5,"y":0.5}
+},
+"Lycan_Death_0.png":
+{
+	"frame": {"x":579,"y":76,"w":150,"h":142},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":87,"y":0,"w":150,"h":142},
+	"sourceSize": {"w":240,"h":142},
+	"anchor": {"x":0.5,"y":0.5}
+},
+"Lycan_Death_1.png":
+{
+	"frame": {"x":278,"y":76,"w":151,"h":142},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":86,"y":0,"w":151,"h":142},
+	"sourceSize": {"w":240,"h":142},
+	"anchor": {"x":0.5,"y":0.5}
+},
+"Lycan_Death_2.png":
+{
+	"frame": {"x":729,"y":76,"w":151,"h":142},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":86,"y":0,"w":151,"h":142},
+	"sourceSize": {"w":240,"h":142},
+	"anchor": {"x":0.5,"y":0.5}
+},
+"Lycan_Death_3.png":
+{
+	"frame": {"x":429,"y":76,"w":150,"h":142},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":87,"y":0,"w":150,"h":142},
+	"sourceSize": {"w":240,"h":142},
+	"anchor": {"x":0.5,"y":0.5}
+},
+"Lycan_Death_4.png":
+{
+	"frame": {"x":69,"y":76,"w":209,"h":90},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":52,"w":209,"h":90},
+	"sourceSize": {"w":240,"h":142},
+	"anchor": {"x":0.5,"y":0.5}
+},
+"Lycan_Death_5.png":
+{
+	"frame": {"x":686,"y":0,"w":239,"h":76},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":66,"w":239,"h":76},
+	"sourceSize": {"w":240,"h":142},
+	"anchor": {"x":0.5,"y":0.5}
+},
+"Lycan_Death_6.png":
+{
+	"frame": {"x":201,"y":0,"w":214,"h":58},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":84,"w":214,"h":58},
+	"sourceSize": {"w":240,"h":142},
+	"anchor": {"x":0.5,"y":0.5}
+},
+"Lycan_Death_7.png":
+{
+	"frame": {"x":0,"y":0,"w":201,"h":58},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":84,"w":201,"h":58},
+	"sourceSize": {"w":240,"h":142},
+	"anchor": {"x":0.5,"y":0.5}
+},
+"Lycan_Hit_0.png":
+{
+	"frame": {"x":620,"y":843,"w":171,"h":170},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":171,"h":170},
+	"sourceSize": {"w":171,"h":170},
+	"anchor": {"x":0.671795,"y":0.973094}
+},
+"Lycan_Hit_1.png":
+{
+	"frame": {"x":791,"y":843,"w":171,"h":170},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":171,"h":170},
+	"sourceSize": {"w":171,"h":170},
+	"anchor": {"x":0.671795,"y":0.973094}
+},
+"Lycan_Howl_0.png":
+{
+	"frame": {"x":729,"y":369,"w":157,"h":154},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":28,"w":157,"h":154},
+	"sourceSize": {"w":159,"h":182},
+	"anchor": {"x":0.5,"y":0.5}
+},
+"Lycan_Howl_1.png":
+{
+	"frame": {"x":572,"y":369,"w":157,"h":154},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":28,"w":157,"h":154},
+	"sourceSize": {"w":159,"h":182},
+	"anchor": {"x":0.5,"y":0.5}
+},
+"Lycan_Howl_2.png":
+{
+	"frame": {"x":777,"y":523,"w":157,"h":157},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":25,"w":157,"h":157},
+	"sourceSize": {"w":159,"h":182},
+	"anchor": {"x":0.5,"y":0.5}
+},
+"Lycan_Howl_3.png":
+{
+	"frame": {"x":140,"y":680,"w":157,"h":159},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":23,"w":157,"h":159},
+	"sourceSize": {"w":159,"h":182},
+	"anchor": {"x":0.5,"y":0.5}
+},
+"Lycan_Howl_4.png":
+{
+	"frame": {"x":159,"y":1013,"w":157,"h":182},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":0,"w":157,"h":182},
+	"sourceSize": {"w":159,"h":182},
+	"anchor": {"x":0.5,"y":0.5}
+},
+"Lycan_Howl_5.png":
+{
+	"frame": {"x":316,"y":1013,"w":158,"h":182},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":0,"w":158,"h":182},
+	"sourceSize": {"w":159,"h":182},
+	"anchor": {"x":0.5,"y":0.5}
+},
+"Lycan_Howl_6.png":
+{
+	"frame": {"x":0,"y":1013,"w":159,"h":181},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":159,"h":181},
+	"sourceSize": {"w":159,"h":182},
+	"anchor": {"x":0.5,"y":0.5}
+},
+"Lycan_Idle_0.png":
+{
+	"frame": {"x":575,"y":680,"w":135,"h":163},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":0,"w":135,"h":163},
+	"sourceSize": {"w":139,"h":163},
+	"anchor": {"x":0.5,"y":0.5}
+},
+"Lycan_Idle_1.png":
+{
+	"frame": {"x":710,"y":680,"w":135,"h":163},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":0,"w":135,"h":163},
+	"sourceSize": {"w":139,"h":163},
+	"anchor": {"x":0.5,"y":0.5}
+},
+"Lycan_Idle_2.png":
+{
+	"frame": {"x":436,"y":680,"w":139,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":139,"h":161},
+	"sourceSize": {"w":139,"h":163},
+	"anchor": {"x":0.5,"y":0.5}
+},
+"Lycan_Idle_3.png":
+{
+	"frame": {"x":297,"y":680,"w":139,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":139,"h":161},
+	"sourceSize": {"w":139,"h":163},
+	"anchor": {"x":0.5,"y":0.5}
+},
+"Lycan_Walk_0.png":
+{
+	"frame": {"x":324,"y":843,"w":139,"h":166},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":0,"w":139,"h":166},
+	"sourceSize": {"w":170,"h":166},
+	"anchor": {"x":0.5,"y":0.5}
+},
+"Lycan_Walk_1.png":
+{
+	"frame": {"x":161,"y":843,"w":163,"h":166},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":0,"w":163,"h":166},
+	"sourceSize": {"w":170,"h":166},
+	"anchor": {"x":0.5,"y":0.5}
+},
+"Lycan_Walk_2.png":
+{
+	"frame": {"x":463,"y":843,"w":157,"h":166},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":0,"w":157,"h":166},
+	"sourceSize": {"w":170,"h":166},
+	"anchor": {"x":0.5,"y":0.5}
+},
+"Lycan_Walk_3.png":
+{
+	"frame": {"x":0,"y":843,"w":161,"h":165},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":161,"h":165},
+	"sourceSize": {"w":170,"h":166},
+	"anchor": {"x":0.5,"y":0.5}
+}},
+"animations": {
+	"Lycan_Attack": ["Lycan_Attack_00.png","Lycan_Attack_01.png","Lycan_Attack_02.png","Lycan_Attack_03.png","Lycan_Attack_04.png","Lycan_Attack_05.png","Lycan_Attack_06.png","Lycan_Attack_07.png","Lycan_Attack_08.png","Lycan_Attack_09.png","Lycan_Attack_10.png","Lycan_Attack_11.png"],
+	"Lycan_Attack_Effect": ["Lycan_Attack_Effect_0.png","Lycan_Attack_Effect_1.png","Lycan_Attack_Effect_2.png","Lycan_Attack_Effect_3.png","Lycan_Attack_Effect_4.png"],
+	"Lycan_Death": ["Lycan_Death_0.png","Lycan_Death_1.png","Lycan_Death_2.png","Lycan_Death_3.png","Lycan_Death_4.png","Lycan_Death_5.png","Lycan_Death_6.png","Lycan_Death_7.png"],
+	"Lycan_Hit": ["Lycan_Hit_0.png","Lycan_Hit_1.png"],
+	"Lycan_Howl": ["Lycan_Howl_0.png","Lycan_Howl_1.png","Lycan_Howl_2.png","Lycan_Howl_3.png","Lycan_Howl_4.png","Lycan_Howl_5.png","Lycan_Howl_6.png"],
+	"Lycan_Idle": ["Lycan_Idle_0.png","Lycan_Idle_1.png","Lycan_Idle_2.png","Lycan_Idle_3.png"],
+	"Lycan_Walk": ["Lycan_Walk_0.png","Lycan_Walk_1.png","Lycan_Walk_2.png","Lycan_Walk_3.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "Lycan.png",
+	"format": "RGBA8888",
+	"size": {"w":971,"h":1236},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:0f494f239095a281466cdcaa98820402:658c9f8f46d2d441023b44c7c5e817ec:2f63ba6f069695a6dcd26bb41c5d6c63$"
+}
+}

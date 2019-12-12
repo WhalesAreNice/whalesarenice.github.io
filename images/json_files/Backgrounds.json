@@ -1,0 +1,48 @@
+{"frames": {
+
+"background_0.png":
+{
+	"frame": {"x":1,"y":1,"w":1000,"h":700},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1000,"h":700},
+	"sourceSize": {"w":1000,"h":700}
+},
+"background_1.png":
+{
+	"frame": {"x":1,"y":1,"w":1000,"h":700},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1000,"h":700},
+	"sourceSize": {"w":1000,"h":700}
+},
+"floor_0.png":
+{
+	"frame": {"x":1,"y":703,"w":1035,"h":123},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1035,"h":123},
+	"sourceSize": {"w":1035,"h":123}
+},
+"floor_1.png":
+{
+	"frame": {"x":1,"y":703,"w":1035,"h":123},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1035,"h":123},
+	"sourceSize": {"w":1035,"h":123}
+}},
+"animations": {
+	"background": ["background_0.png","background_1.png"],
+	"floor": ["floor_0.png","floor_1.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "Backgrounds.png",
+	"format": "RGBA8888",
+	"size": {"w":1037,"h":827},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:3acbb9ff35cbf4abec630d75be76e1a3:cfbf92159b1c15c83882cb0452385526:97737d53c8dea565e10330f57fec03f3$"
+}
+}
