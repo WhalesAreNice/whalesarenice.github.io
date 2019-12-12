@@ -33,6 +33,14 @@ let playerDamage;
 let playerInvulnerableReset;
 let playerInvulnerableTime;
 
+//sounds
+let slashSound;
+let pillarSound;
+let dropSound;
+let hitSound;
+let laserSound;
+let howlSound;
+
 let clawSheet;
 let claw;
 let clawAliveDuration;
@@ -181,6 +189,9 @@ function setup(){
     
     //creating labels for scenes
     createLabelsAndButtons();
+    
+    //create sounds
+    LoadSounds();
     
     //start update loop
     app.ticker.add(gameLoop);
@@ -513,6 +524,7 @@ function BossActions(){
         boss.textures = bossSheet.hit.textures;
         if(!boss.playing){
             boss.textures = bossSheet.hit.textures;
+            hitSound.play();
             boss.play();
         }
     }else if(bossLife <= 0){
@@ -538,6 +550,7 @@ function BossActions(){
             laser.hit = false;
             laserAliveTime += laserAliveDuration;
             laserSheet.play();
+            laserSound.play();
         }else if(num == 1){//attacks with pillars
             pillar.isAlive = true;
             pillar.visible = true;
@@ -545,6 +558,7 @@ function BossActions(){
             pillar.hit = false;
             pillarAliveTime += pillarAliveDuration;
             pillarSheet.play();
+            pillarSound.play();
         }else{//attacks with drops
             drop.isAlive = true;
             drop.visible = true;
@@ -552,6 +566,7 @@ function BossActions(){
             drop.hit = false;
             dropAliveTime += dropAliveDuration;
             dropSheet.play();
+            dropSound.play();
         }
         //play boss ability
         ability.isAlive = true;
@@ -575,6 +590,7 @@ function PlayerActions(){
     //checks to see if player gets hit and becomes invulnerable
     if(playerInvulnerableTime != 0){
         player.textures = playerSheet.hit.textures;
+        hitSound.play();
         player.play();
     }
     //Attack
@@ -600,6 +616,7 @@ function PlayerActions(){
             player.textures = playerSheet.attack.textures;
             player.play();
         }
+        slashSound.play();
         clawSheet.play();
     }
     //Howl
@@ -617,6 +634,7 @@ function PlayerActions(){
             player.loop = false;
             player.play();
         }
+        howlSound.play();
     }
     //Movement
     //checks to see if player is attacking or howling (no overlapping actions)
@@ -841,6 +859,32 @@ function BossAbility(){
     ability.y = 200;
     ability.isAlive = false;
     ability.visible = false;
+}
+
+function LoadSounds(){
+    howlSound = new Howl({
+        src: ['sounds/howl.mp3']
+    });
+    
+    dropSound = new Howl({
+        src: ['sounds/drop.mp3']
+    });
+    
+    laserSound = new Howl({
+        src: ['sounds/laser.mp3']
+    });
+    
+    pillarSound = new Howl({
+        src: ['sounds/pillar.mp3']
+    });
+    
+    slashSound = new Howl({
+        src: ['sounds/slash.mp3']
+    });
+    
+    hitSound = new Howl({
+        src: ['sounds/hit.mp3']
+    });
 }
 
 function LycanSpriteSheetJson(){
