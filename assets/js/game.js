@@ -592,9 +592,14 @@ function PlayerActions(){
         claw.hit = false;
         clawAliveTime += clawAliveDuration;
         //change animation to attack
-        player.textures = playerSheet.attack.textures;
-        player.animationSpeed = 0.4;
-        player.play();
+        if(player.textures != playerSheet.attack.textures){
+            player.textures = playerSheet.attack.textures;
+            player.animationSpeed = 0.4;
+        }
+        if(!player.playing){
+            player.textures = playerSheet.attack.textures;
+            player.play();
+        }
         clawSheet.play();
     }
     //Howl
@@ -604,10 +609,14 @@ function PlayerActions(){
         howlTime += howlResetDuration;
         howlDamageBuffTime += 150;
         //change animation to howl
-        player.textures = playerSheet.howl.textures;
-        player.animationSpeed = 0.2;
-        player.loop = false;
-        player.play();
+        if(player.textures != playerSheet.howl.textures){
+            player.textures = playerSheet.howl.textures;
+            player.animationSpeed = 0.2;
+        }
+        if(!player.playing){
+            player.loop = false;
+            player.play();
+        }
     }
     //Movement
     //checks to see if player is attacking or howling (no overlapping actions)
