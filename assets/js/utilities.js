@@ -26,10 +26,10 @@
     function rectsBottomIntersect(a,b,aWidth, bWidth){
 		var ab = a;
 		var bb = b;
-        console.log("dropYMax:   "+ab.y);
-        console.log("playerYMin: "+(bb.y - bb.height/2));
-        console.log("dropYMin:   "+(ab.y - ab.height/2));
-        console.log("playerYMax: "+(bb.y + bb.height/2));
+        //console.log("dropYMax:   "+ab.y);
+        //console.log("playerYMin: "+(bb.y - bb.height/2));
+        //console.log("dropYMin:   "+(ab.y - ab.height/2));
+        //console.log("playerYMax: "+(bb.y + bb.height/2));
 		return ab.x + aWidth/2 > bb.x - bWidth/2 && ab.x - aWidth/2 < bb.x + bWidth/2 && ab.y - ab.height/2 < bb.y + bb.height/2 && ab.y > bb.y - bb.height/2;
 	}
 	
